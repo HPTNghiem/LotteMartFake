@@ -79,17 +79,17 @@ if(isset($_POST['dangki']))
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-<h2>Sign in/up Form</h2>
+<h2>Đăng nhập/Đăng kí</h2>
     <div class="container" id="container">
         <div class="form-container sign-up-container">
             <form action="login.php" method="POST">
-                <h1>Create Account</h1>
+                <h1>Tạo tài khoản</h1>
                 <div class="social-container">
                     <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
                     <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
                     <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
                 </div>
-                <span>or use your email for registration</span>
+                <span>hoặc sử dụng email của bạn để đăng kí</span>
                 <input type="text" placeholder="Name"  name='name'/>
                 <input type="email" placeholder="Email" name='register_username'/>
                 <input type="password" placeholder="Password"  name='register_password'/>
@@ -99,7 +99,7 @@ if(isset($_POST['dangki']))
         </div>
         <div class="form-container sign-in-container">
             <form action="login.php" method="POST">
-                <h1>Sign in</h1>
+                <h1>Đăng nhập</h1>
                 <div class="social-container">
                     <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
                     <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
@@ -108,21 +108,21 @@ if(isset($_POST['dangki']))
                 <span>hoặc sử dụng tài khoản của bạn</span>
                 <input type="email" placeholder="Email" name="username"/>
                 <input type="password" placeholder="Password"  name="password"/>
-                <a href="#">Forgot your password?</a>
+                <a href="#">Bạn quên mật khẩu?</a>
                 <input type='submit' class="button" name="dangnhap" value='Đăng nhập' />
             </form>
         </div>
         <div class="overlay-container">
             <div class="overlay">
                 <div class="overlay-panel overlay-left">
-                    <h1>Welcome Back!</h1>
-                    <p>To keep connected with us please login with your personal info</p>
-                    <button class="ghost" id="signIn">Sign In</button>
+                    <h1>Chào mừng trở lại!</h1>
+                    <p>Để tiếp tục tương tác với chúng tôi, vui lòng đăng nhập với tài khoản của bạn</p>
+                    <button class="ghost" id="signIn">Đăng nhập</button>
                 </div>
                 <div class="overlay-panel overlay-right">
                     <h1>Chào bạn!</h1>
-                    <p>Enter your personal details and start journey with us</p>
-                    <button class="ghost" id="signUp">Sign Up</button>
+                    <p>Đăng nhập vào và bắt đầu tương tác với chúng tôi</p>
+                    <button class="ghost" id="signUp">Đăng kí</button>
                 </div>
             </div>
         </div>
